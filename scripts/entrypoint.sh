@@ -33,7 +33,7 @@ set -x
 # HIVE_SERVER2_THRIFT_PORT: 10000
 # SERVICE_OPTS: '-Xmx1G -Dhive.metastore.uris=thrift://metastore:9083'
 
-SERVICE_OPTS="-Xmx1G -Djavax.jdo.option.ConnectionDriverName=org.apache.derby.jdbc.EmbeddedDriver"
+# SERVICE_OPTS="-Xmx1G -Djavax.jdo.option.ConnectionDriverName=org.apache.derby.jdbc.EmbeddedDriver"
 
 SKIP_SCHEMA_INIT="${IS_RESUME:-false}"
 
