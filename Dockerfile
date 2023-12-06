@@ -2,7 +2,7 @@ FROM azul/zulu-openjdk-debian:8-jre
 
 # Settings for the container
 ENV HIVE_LOGLEVEL="info" \
-    HADOOP_VERSION=3.3.4 \
+    HADOOP_VERSION=3.3.6 \
     HIVE_VERSION=3.1.3 \
     TEZ_VERSION=0.10.2 \
     LOG4J_VERSION=2.19.0 \
